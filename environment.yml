@@ -1,0 +1,14 @@
+name: streamlit_lungs_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11 # UBAH INI dari 3.10 menjadi 3.11 untuk cocok dengan lokal Anda
+  - pip
+  - pip:
+      - streamlit
+      - pandas
+      - numpy
+      - tensorflow==2.12.0 # UBAH INI dari 2.10.0 menjadi 2.12.0
+      - joblib
+      # Tambahkan library lain di sini jika ada yang Anda butuhkan
